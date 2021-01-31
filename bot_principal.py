@@ -8,15 +8,15 @@ import os
 import time
 
 diretorio_principal = '/home/fulando/irclogs/Chknet/#brazil.log' # O diretório de usuario e local de logs exemplo: "/home/fulando/irclogs/Chknet/#brazil.log"
-arquivo_filtrado = '/home/fulando/irclogs/Chknet/data.txt' #Local dos dados gravados de preferencia coloque o mesmo local do diretorio_principal
+arquivo_filtrado = '/home/fulando/irclogs/Chknet/data.txt' # Local dos dados gravados de preferencia coloque o mesmo local do diretorio_principal
 
 while True:
         os.system('egrep "<%" ' + diretorio_principal + ' > ' + arquivo_filtrado)
         arq = open(arquivo_filtrado, 'r')
 
         def telegram_bot_sendtext(bot_message):
-                bot_token = '*******************' #token do bot
-                bot_chatID = '*******' #local onde receber as menssagens
+                bot_token = '*******************' # token do bot
+                bot_chatID = '*******' # local onde receber as menssagens
                 send_text = 'https://api.telegram.org/bot' + bot_token + '/sendMessage?chat_id=' + bot_chatID + '&parse_mode=Markdown&text=' + bot_message
 
                 response = requests.get(send_text)
