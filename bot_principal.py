@@ -42,7 +42,7 @@ while True:
                     telegram_bot_sendtext('CC FULL\n'+line.split(' ')[5]+'\n'+line.split(' ')[6]+'\n'+line.split(' ')[7]+'\nBandeira: '+line.split(' ')[17].split('|')[0]+'\n')
 
 
-        #os.system("echo '' > "+diretorio_principal)
+        os.system("echo '' > "+diretorio_principal)
 
 
         arq.close()
