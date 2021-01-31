@@ -12,6 +12,6 @@
 
 6° -> Na teoria tá tudo pronto, use o screen ou o nohup para deixar o bot sempre ativo, de preferencia user um VPC a AWS vai te ajudar com isso com 1 ano gratis de uso.
 
-Fique a vontade para comtribuir.
+Fique a vontade para contribuir.
 
 ATENÇÃO: PARA A CRIAÇÃO DESTE SCRIPT EM NENHUM MOMENTO LEIS FORAM VIOLADAS, O SCRIPT APENAS MOSTRA INFORMAÇÕES OBTIDAS NO IRC DA CHKNET, O USO DAS INFORMAÇÕES OBTIDAS PELO MESMO E DE TOTAL RESPONSABILIDADE DO USUARIO.
