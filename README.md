@@ -1,3 +1,5 @@
+**Como instalar e usar**
+
 1° -> Deve instalar o irssi com: sudo apt update && sudo apt install irssi -y
 
 2° -> Inicie o progrma com o comando 'irssi' para que seja criando a pasta .irssi
