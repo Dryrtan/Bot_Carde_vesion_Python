@@ -15,8 +15,8 @@ while True:
         arq = open(arquivo_filtrado, 'r')
 
         def telegram_bot_sendtext(bot_message):
-                bot_token = '1491360647:AAH_7g_PSRwuLLQu8nT_VztvolnSoe7lIu8'
-                bot_chatID = '@Dryrtan_channel_infos'
+                bot_token = '*******************' #token do bot
+                bot_chatID = '*******' #local onde receber as menssagens
                 send_text = 'https://api.telegram.org/bot' + bot_token + '/sendMessage?chat_id=' + bot_chatID + '&parse_mode=Markdown&text=' + bot_message
 
                 response = requests.get(send_text)
