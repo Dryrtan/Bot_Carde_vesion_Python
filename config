@@ -7,7 +7,7 @@ servers = (
     tls_verify = "yes";
   },
   {
-    address = "irc.chknet.cc;\012    chatnet = ";
+    address = "irc.chknet.online;\012    chatnet = ";
     brazil = ";\012    port = ";
     6697 = ";\012    use_tls = ";
     yes = ";\012  },\012  { address = ";
@@ -47,7 +47,7 @@ servers = (
   { name = "#oftc"; chatnet = "OFTC"; autojoin = "No"; },
   { name = "silc"; chatnet = "SILC"; autojoin = "No"; },
   {
-    address = "irc.chknet.cc";
+    address = "irc.chknet.online";
     chatnet = "Chknet";
     port = "6697";
     use_tls = "yes";
@@ -320,7 +320,7 @@ chatnets = {
   Chknet = {
     type = "IRC";
     nick = "suco_de_fruta";
-    autosendcmd = "/JOIN #brazil; /LOG START ~/irssi/irssi-%Y-%m-%d; /SET autolog ON; /part #ccpower; /part #chknet; /part #unix";
+    autosendcmd = "/JOIN #brasil; /LOG START ~/irssi/irssi-%Y-%m-%d; /SET autolog ON; /part #ccpower; /part #chknet; /part #unix";
   };
 };
 channels = ( 
